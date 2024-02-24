@@ -1,0 +1,9 @@
+@echo off
+
+echo Installing PyWin32
+pip install pywin32
+
+echo Installing PyAutoGUI
+pip install pyautogui
+
+pause
