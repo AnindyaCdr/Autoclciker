@@ -5,6 +5,9 @@ from sys import exit
 import win32api
 import pyautogui as ptg
 
+#I don't know what it does but I got an error and the error told me to use this and I used it
+ptg.FAILSAFE = False
+
 #Creating The class
 class loops:
     #Getting the required variables
